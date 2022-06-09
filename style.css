@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS document */
+span{
+    display: inline;
+}
+div {
+    visibility:block;
+    background-color: rgb(177, 43, 226);
+    color: rgb(0, 251, 255);
+    margin: 20px;
+    width: 50%;
+}
+.red{
+    
+    margin: 100px 10px 5px 0px;
+    color :rgb(177, 43, 226)
+    boundary: yellow;
+    padding: 10px 20px 20px 30px;
+    background-color:pink;
+
+}
+.new{
+    boundary: yellow;
+    margin: 10px;
+    padding: 10px 20px 20px 30px;
+    background-color:blue;
+    text-align: center;
+    color: red;
+
+}
+#newspan{
+    background: yellow;
+    font-weight: bold;
+    font-size: 18px;
+}
+.newspan{
+    background:green;
+    font-weight: bold;
+    font-size: 28px;
+}
+.ripu{
+    background:yellowgreen;
+}
+img {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 255, 21);
+    text-align: center;
+}
+nav li {
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+nav a {
+    background: brown;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    padding: 16px;
+    font-weight: bold;
+    width: 120px;
+}
+nav a:hover, a:active {
+    background-color: rgb(255, 192, 233);
+}
+@media screen and (max-width: 960px) {
+#wrapper {
+    width: 100%;
+}
+nav a{
+    width: 80px;
+}
+}
+@media screen and (max-width: 600px){
+header {
+    width: 100px;
+    padding: 10px;
+}
+nav a{
+    width: 100%;
+}
+}
